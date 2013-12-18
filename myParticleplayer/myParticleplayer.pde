@@ -62,7 +62,7 @@ Sound forge to do that. But wav files seem to have problem with metadata. So the
     
     swt = new aswitch(new PVector(width - 50, 15), switcher, cir);    //switch to vanish UI
     minim = new Minim(this);
-    juke = minim.loadFile("fireflies.mp3");          //song to be played 
+    juke = minim.loadFile("whoweare.mp3");          //song to be played 
     metaD = juke.getMetaData();                  //get metadata/info about the song(wav format song don't seem to have it)
     
     force = new PVector(0, -0.2);                //for that will cause smoke texture to rise up / (-)ve y direction
